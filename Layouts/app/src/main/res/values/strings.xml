@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="enter_a_value">enter a value</string>
+    <string name="press_me">press me</string>
+</resources>
