@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiScreen activity</string>
+    <string name="welcome_to_multiscreen_app">Welcome to MultiScreen APP!</string>
+    <string name="enter_something">Enter Something</string>
+    <string name="submit">submit</string>
+    <string name="pleasewait">pleaseWait</string>
+</resources>
