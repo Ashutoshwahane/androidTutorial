@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SheetApi</string>
+    <string name="Sr_No">Sr_No</string>
+    <string name="key">key</string>
+    <string name="value">value</string>
+
+
+</resources>
