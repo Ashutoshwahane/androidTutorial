@@ -1,0 +1,55 @@
+<!--<shortcuts xmlns:tools="http://schemas.android.com/tools"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <shortcut-->
+<!--        android:shortcutId="s1"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/compose_icon"-->
+<!--        android:shortcutShortLabel="@string/setShortLabel1"-->
+<!--        android:shortcutLongLabel="@string/setLongLabel"-->
+<!--        android:shortcutDisabledMessage="@string/compose_disabled_message1"-->
+<!--        tools:targetApi="n_mr1">-->
+<!--        <intent-->
+<!--            android:action="android.intent.action.VIEW"-->
+<!--            android:targetPackage="com.example.myapplication"-->
+<!--            android:targetClass="com.example.myapplication.ComposeActivity" />-->
+<!--        &lt;!&ndash; If your shortcut is associated with multiple intents, include them-->
+<!--             here. The last intent in the list determines what the user sees when-->
+<!--             they launch this shortcut. &ndash;&gt;-->
+<!--        <categories android:name="android.shortcut.conversation" />-->
+<!--    </shortcut>-->
+<!--    &lt;!&ndash; Specify more shortcuts here. &ndash;&gt;-->
+
+
+<!--</shortcuts>-->
+
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+
+        android:shortcutId="compose"
+
+
+        android:enabled="true"
+
+
+        android:icon="@drawable/compose_icon"
+
+
+        android:shortcutShortLabel="@string/shortcut_short_label"
+
+
+
+        android:shortcutLongLabel="@string/shortcut_long_label">
+
+
+
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.jessicathornsby.shortcuts"
+
+
+        android:targetClass="com.jessicathornsby.shortcuts.EmailActivity" />
+</shortcut>
+    </shortcuts>
