@@ -2,4 +2,8 @@
     <string name="app_name">Layouts</string>
     <string name="enter_a_value">enter a value</string>
     <string name="press_me">press me</string>
+    <string name="button">Button</string>
+    <string name="press">Button</string>
+    <string name="start">start</string>
+    <string name="enter_anything">enter anything</string>
 </resources>
