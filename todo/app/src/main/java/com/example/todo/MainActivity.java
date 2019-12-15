@@ -13,7 +13,7 @@ import android.widget.Toast;
         EditText dollaramount =(EditText) findViewById(R.id.dollaramount);
         String dollar = dollaramount.getText().toString();
         Double doubleDollar = Double.parseDouble(dollar);
-        Double doubleInr = 70.71 * doubleDollar;
+        Double doubleInr = (71.58 * doubleDollar) + 0.5;
         String toast = "= " + doubleInr.toString() + " Rupees";
         Toast.makeText(this,toast, Toast.LENGTH_SHORT).show();
     }
