@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">backgroundtask</string>
+    <string name="background_task">BackGround task</string>
+    <string name="start">Start</string>
+</resources>
