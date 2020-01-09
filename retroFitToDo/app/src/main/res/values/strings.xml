@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">retroFit ToDo</string>
+    <string name="gettodo">GetToDo</string>
+    <string name="gettodoroute">getToDoRoute</string>
+    <string name="gettodoquery">getToDoQuery</string>
+    <string name="posttodo">PostToDo</string>
+</resources>
