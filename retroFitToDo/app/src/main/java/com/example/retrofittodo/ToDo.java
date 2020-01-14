@@ -2,7 +2,8 @@ package com.example.retrofittodo;
 
 public class ToDo {
 
-    private int id, userId;
+    private int id;
+    private int userId;
     private String title;
     private Boolean completed;
 
@@ -21,6 +22,7 @@ public class ToDo {
     }
 
     public int getId() {
+
         return id;
     }
 
@@ -29,26 +31,32 @@ public class ToDo {
     }
 
     public int getUserId() {
+
         return userId;
     }
 
     public void setUserId(int userId) {
+
         this.userId = userId;
     }
 
     public String getTitle() {
+
         return title;
     }
 
     public void setTitle(String title) {
+
         this.title = title;
     }
 
     public Boolean getCompleted() {
+
         return completed;
     }
 
     public void setCompleted(Boolean completed) {
+
         this.completed = completed;
     }
 

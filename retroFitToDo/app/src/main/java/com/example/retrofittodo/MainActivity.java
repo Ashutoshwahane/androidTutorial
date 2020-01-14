@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getTodoRoute(View view) {
-        Call<ToDo> toDoRoute = apiInterface.getToDoRoute(3);
+        Call<ToDo> toDoRoute = apiInterface.getToDoRoute(1);
             toDoRoute.enqueue(new Callback<ToDo>() {
                 @Override
                 public void onResponse(Call<ToDo> call, Response<ToDo> response) {
