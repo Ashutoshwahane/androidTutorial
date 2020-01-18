@@ -20,35 +20,43 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // requesting one by one
-        RequestQueue requestQueue;
-        requestQueue = Volley.newRequestQueue(this);
 
-        // json object for http methods
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,
-                "https://jsonplaceholder.typicode.com/todos/1", null, new Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject response) {
-                try {
-                    Log.d("myapp", "onResponse:The response is "+ response.getString("title"));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
 
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.d("myApp", "onErrorResponse: Something went wrong ");
-            }
-        }
-        );
 
-        requestQueue.add(jsonObjectRequest);
+
+
+
+
+//        // requesting one by one
+//        RequestQueue requestQueue;
+//        requestQueue = Volley.newRequestQueue(this);
+//
+//        // json object for http methods
+//        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,
+//                "https://jsonplaceholder.typicode.com/todos/1", null, new Response.Listener<JSONObject>() {
+//            @Override
+//            public void onResponse(JSONObject response) {
+//                try {
+//                    Log.d("myapp", "onResponse:The response is "+ response.getString("title"));
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+//
+//            }
+//        }, new Response.ErrorListener() {
+//            @Override
+//            public void onErrorResponse(VolleyError error) {
+//                Log.d("myApp", "onErrorResponse: Something went wrong ");
+//            }
+//        }
+//        );
+//
+//        requestQueue.add(jsonObjectRequest);
     }
 }
