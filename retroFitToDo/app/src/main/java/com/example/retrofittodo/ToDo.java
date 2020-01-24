@@ -15,6 +15,7 @@ public class ToDo {
 
     }
 
+
     public ToDo(int userId, String title, Boolean completed) {
         this.userId = userId;
         this.title = title;
